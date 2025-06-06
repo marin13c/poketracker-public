@@ -76,7 +76,6 @@ export default function Home() {
               <MissingPokemonsList
                 nombresObtenidos={nombresObtenidos}
                 pokemons={pokemons}
-                setPokemons={setPokemons} // ✅ Aquí está el fix
               />
             )}
           </div>
